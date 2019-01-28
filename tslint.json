@@ -1,0 +1,15 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "no-submodule-imports": false,
+    "member-access": [true, "no-public"],
+    "no-console": false,
+    "member-ordering": false,
+    "curly": [true, "ignore-same-line"],
+    "only-arrow-functions": false
+  }
+}
